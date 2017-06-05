@@ -1,0 +1,102 @@
+.game-container
+{
+    background-image: url("../images/wood_pattern.png");
+    width: 100%;
+    /*margin-left: 0.5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;*/
+    border: 2px solid black;
+}
+
+.yellow-box
+{
+    width: 75%;
+    background-color: #ffffa2;
+    margin-left: 10%;
+    padding-bottom: 12%;
+    padding-top: 2%;
+}
+
+.game-title
+{
+    color: blue;
+    font-size: 100px;
+    text-align: center;
+    font: bold;
+}
+
+#start-button
+{
+    width: 30%;
+    height: 70px;
+    margin-left: 35%;
+    margin-top: 5%;
+    font-size: 32px;
+    background-color: lightpink;
+}
+
+#restart-button
+{
+    width: 30%;
+    height: 70px;
+    margin-left: 35%;
+    margin-top: 5%;
+    font-size: 32px;
+    background-color: lightpink;
+}
+
+.show-text
+{
+    text-align: center;
+    font-size: 32px;
+}
+
+form
+{
+    text-align: center;
+}
+
+#submit-button
+{
+    width: 30%;
+    height: 70px;
+    font-size: 32px;
+    background-color: lightpink;
+}
+
+@media screen and (max-width: 768px)
+{
+    #restart-button
+    {
+        margin-left: 30%;
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 640px)
+{
+    #restart-button
+    {
+        margin-left: 30%;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    #submit-button
+    {
+        width: 42%;
+    } 
+
+    #start-button
+    {
+        width: 42%;
+    }
+
+    #restart-button
+    {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
